@@ -1,0 +1,27 @@
+.not-found-main-container {
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found-image {
+    height: 400px;
+}
+
+.not-found-title {
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.not-found-text {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 425px) {
+    .not-found-image {
+        height: 100%;
+    }
+}
